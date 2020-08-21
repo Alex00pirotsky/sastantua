@@ -143,13 +143,26 @@ pyramid     *paln_kapkan    (int high)
 
 int main(int argc, char **argv)
 {
+    pyramid *root;
+    if (argc < 2 && argv[2])
+    {
+        printf("Please you should enter Only one number, or at least one number");
+    }
+    else
+    {
+        root = paln_kapkan(ft_atoi(argv[1]));
+        pr_sas(root);
+    }
 
-//    pyramid *root = paln_kapkan(ft_atoi(argv[1]));
-////    //pyramid *root = paln_kapkan(4);
-//    pr_sas(root);
+
+
+
+
+
+
+
 //
 
-    printf("%c\n", 1 - 48gccgccgcc);
 
 
 
