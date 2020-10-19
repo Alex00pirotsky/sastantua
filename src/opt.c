@@ -2,7 +2,7 @@
 // Created by zeus on 02.07.2020.
 //
 
-#include "options.h"
+#include "../headers/options.h"
 
 
 int         space_count     (int all_line, int high)

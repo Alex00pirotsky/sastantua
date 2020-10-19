@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include "options.h"
+#include "../headers/options.h"
 
 typedef struct sast
 {
