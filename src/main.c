@@ -153,20 +153,5 @@ int main(int argc, char **argv)
         root = paln_kapkan(ft_atoi(argv[1]));
         pr_sas(root);
     }
-
-
-
-
-
-
-
-
-//
-
-
-
-
     return 0;
 }
-//Kizumonogatari
-//Anime: Killing Bites
